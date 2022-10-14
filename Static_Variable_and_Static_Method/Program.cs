@@ -34,18 +34,18 @@ namespace Static_Variable_and_Static_Method
         //    Console.WriteLine(NetPaid_Salary.TotalCount());     
         //}
 
-        static void Main(string[] args)  // For Student Class .....
-        {
-            Student s1 = new Student("Hitesh",70,80,90);
-            Student s2 = new Student("Nitin",80,90,95);
-            Student s3 = new Student("Sachin",85,90,95);
-            s1.Calculate();
-            s2.Calculate();
-            s3.Calculate();
-            Console.WriteLine(s1);
-            Console.WriteLine(s2);
-            Console.WriteLine(s3);
-            Console.WriteLine(Student.TotalCount());
-        }
+        //static void Main(string[] args)  // For Student Class .....
+        //{
+        //    Student s1 = new Student("Hitesh",70,80,90);
+        //    Student s2 = new Student("Nitin",80,90,95);
+        //    Student s3 = new Student("Sachin",85,90,95);
+        //    s1.Calculate();
+        //    s2.Calculate();
+        //    s3.Calculate();
+        //    Console.WriteLine(s1);
+        //    Console.WriteLine(s2);
+        //    Console.WriteLine(s3);
+        //    Console.WriteLine(Student.TotalCount());
+        //}
     }
 }
